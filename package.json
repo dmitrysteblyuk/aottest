@@ -6,8 +6,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "npm run build:aot && npm run rollup",
-    "build:aot": "ngc -p tsconfig-aot.json",
-    "rollup": "rollup -c rollup-config.js",
+    "build:aot": "ngc -p with-forms/tsconfig-aot.json && ngc -p without-forms/tsconfig-aot.json",
+    "rollup": "rollup -c with-forms/rollup-config.js && rollup -c without-forms/rollup-config.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

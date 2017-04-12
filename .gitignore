@@ -1,11 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist/aot
-/dist/out-ngc
-/dist/out-tsc
-/tmp
-/out-tsc
+# nothing here for sharing and debug purpose
 
 # dependencies
 /node_modules
